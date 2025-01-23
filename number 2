@@ -1,0 +1,7 @@
+def ChangeChecker(x):
+    if x%5==0:
+        print("This doesnt need pennies")
+    else:
+        print("no pennies required")
+        
+ChangeChecker(12)
