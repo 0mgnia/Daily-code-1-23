@@ -1,0 +1,8 @@
+#function definition-------------------
+def sphere(x):  #change name to what we're doing, check parameters
+    return x * #look up the formuloa and replace this
+
+num = int(input("enter a number"))
+print("that num is 4 is", sphere(num))
+
+#call the function in a print statement
