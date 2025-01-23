@@ -1,0 +1,8 @@
+def isPrime(num):
+    prime = True
+    for i in range(2, num):
+        if num % i == 0:
+            prime = False
+        return prime
+    
+print("Is the num prime?", isPrime(14))
